@@ -1,0 +1,120 @@
+/*
+    Template Name    : skilify
+	Description		 : HTML5 Template
+    Version          : 1.0
+/*
+================================================
+/* Table of Content
+==================================================
+
+
+1. Common CSS
+2. Header CSS
+3. Index Banner CSS
+4. Card slider Sec CSS
+5. Categories Cards Sec CSS
+6. Remote Learning Sec CSS
+7. Know About Platform Sec CSS
+8. Testimonial Sec CSS
+9. Partner Slider Sec CSS
+10. Apply card Sec CSS
+11. Footer CSS
+12. Responsive CSS
+*/
+
+
+
+/*
+================================================
+1. Common CSS
+================================================
+*/
+@import "common";
+
+
+/*
+================================================
+2. Header CSS
+================================================
+*/
+@import "header-footer/header";
+
+
+/*
+================================================
+3. Index Banner CSS
+================================================
+*/
+@import "banners/index-banner";
+
+
+/*
+================================================
+4. Card slider Sec CSS
+================================================
+*/
+@import "common-section/crd-slider-sec";
+
+
+/*
+================================================
+5. Categories Cards Sec CSS
+================================================
+*/
+@import "common-section/categories-cards-sec";
+
+
+/*
+================================================
+6. Remote Learning Sec CSS
+================================================
+*/
+@import "common-section/remote-learning";
+
+/*
+================================================
+7. Know About Platform Sec CSS
+================================================
+*/
+@import "common-section/know-about-platform-sec";
+
+
+
+/*
+================================================
+8. Testimonial Sec CSS
+================================================
+*/
+@import "testimonial/testimonial";
+
+
+/*
+================================================
+9. Partner Slider Sec CSS
+================================================
+*/
+@import "common-section/partner-slider-sec";
+
+
+/*
+================================================
+10. Apply card Sec CSS
+================================================
+*/
+@import "common-section/apply-card-sec";
+
+
+/*
+================================================
+11. Footer CSS
+================================================
+*/
+@import "header-footer/footer";
+
+
+/*
+================================================
+12. Responsive CSS
+================================================
+*/
+@import "responsive";

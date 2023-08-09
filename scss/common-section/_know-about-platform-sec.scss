@@ -1,0 +1,20 @@
+
+.know-about-img{
+    border-radius: 0  40% 0 0;
+    position: relative;
+    margin-top: 50px;
+    img{
+        border-radius: 0  40% 0 0;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        top: -50px;
+        right: 0.8rem;
+        border: 5px solid #F56962;
+        height: 100%;
+        width: 80%;
+        border-radius: inherit;
+        z-index: -1;
+    }   
+}

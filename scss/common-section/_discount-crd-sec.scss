@@ -1,0 +1,70 @@
+.discount-crd-list {
+    margin: 0 -10px;
+}
+.discount-crd-item{
+    padding: 0 10px;
+}
+.discount-sec-content::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(../images/svg/dots-pattern-gray.svg) no-repeat;
+    height: 110px;
+    width: 250px;
+}
+.discount-crd{
+    display: block;
+    height: 300px;
+    width: calc(100% - 20px);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    margin: 0  0 0 auto;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.01);
+        box-shadow: 0 0 30px -15px rgba(0, 0, 0,0.4);
+    }
+}
+
+.blue-wave{
+    background-image: url(../images/svg/blue-wave.svg);
+    .discount-persent-crd{
+        background-color: #64929F;
+    }
+}
+.brown-wave{
+    background-image: url(../images/svg/brown-wave.svg);
+    .discount-persent-crd{
+        background-color: #b3a092;
+    }
+}
+.cherry-wave{
+    background-image: url(../images/svg/cherry-wave.svg);
+    .discount-persent-crd{
+        background-color: #DF4161;
+    }
+}
+
+.discount-crd-img{
+    bottom: 0;    
+    right: 0;
+}
+
+
+.discount-persent-crd{
+    border-radius: 5px;
+    text-align: center;
+    left: -20px;
+    bottom: 20px;
+    
+    .card-text{
+        font-size: 14px;        
+    }
+    .card-title{
+        line-height: 1;
+        font-size: 40px;
+    }
+}

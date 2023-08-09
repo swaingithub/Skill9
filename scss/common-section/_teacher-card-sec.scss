@@ -1,0 +1,83 @@
+
+.teacher-card-item{
+    padding: 25px 15px;
+    margin-top: 180px;
+    border: 1px solid #CAC6D4;
+}
+.teacher-card-item:hover{
+    .teacher-card-item-img img{
+        transform: translateY(0px);
+    }
+    .teacher-card-item-img-bg{
+        box-shadow: 0 40px 45px -30px #b9b9b9;
+    }
+}
+.teacher-card-item-img{
+    bottom: 0;    
+    z-index: 2;
+    img{
+        transform: translateY(20px);
+        transition: all 0.2s linear 0s;
+    }
+}
+
+.teacher-card-item-img-bg{
+    height: 200px;
+    box-shadow: 0 20px 50px -50px #b9b9b9;
+    transition: all 0.2s linear 0s;
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        background-color: #fff;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+.teacher-card-item-img-bg-green{
+    background-color: #06B47E;
+    &::after{
+        background-color: #06B47E;
+    }
+}
+
+.teacher-card-item-img-bg-purple{
+    background-color: #5F5982;
+    &::after{
+        background-color: #5F5982;
+    }
+}
+
+
+.teacher-card-item-img-bg-orange{
+    background-color: #F68C20;
+    &::after{
+        background-color: #F68C20;
+    }
+}
+
+
+
+.teacher-card-item-img-bg-yellow{
+    background-color: #FFC065;
+    &::after{
+        background-color: #FFC065;
+    }
+}
+
+.teacher-card-item-img-bg-pink{
+    background-color: #F56962;
+    &::after{
+        background-color: #F56962;
+    }
+}
+
+
+.teacher-card-item-img-bg-gray{
+    background-color: #91929A;
+    &::after{
+        background-color: #91929A;
+    }
+}
+

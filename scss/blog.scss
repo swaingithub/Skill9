@@ -1,0 +1,76 @@
+/*
+    Template Name    : skilify
+	Description		 : HTML5 Template
+    Version          : 1.0
+/*
+================================================
+/* Table of Content
+==================================================
+
+1. Common CSS
+2. header CSS
+3. Blog banner CSS
+4. Blog Categories Card CSS
+5. Article Card CSS
+6. Apply card Sec CSS
+7. Footer CSS
+8. Responsive CSS
+
+*/
+
+
+/*
+================================================
+1. Common CSS
+================================================
+*/
+@import "common";
+
+/*
+================================================
+2. header CSS
+================================================
+*/
+@import "header-footer/header" ;
+
+/*
+================================================
+3. Blog banner CSS
+================================================
+*/
+@import "banners/blog-banner";
+
+/*
+================================================
+4. Blog Categories Card CSS
+================================================
+*/
+@import "common-section/blog-categories-sec";
+
+/*
+================================================
+5. Article Card CSS
+================================================
+*/
+@import "common-section/article-crd-sec";
+
+/*
+================================================
+6. Apply card Sec CSS
+================================================
+*/
+@import "common-section/apply-card-sec";
+
+/*
+================================================
+7. Footer CSS
+================================================
+*/
+@import "header-footer/footer" ;
+
+/*
+================================================
+8. Responsive CSS
+================================================
+*/
+@import "responsive" ;

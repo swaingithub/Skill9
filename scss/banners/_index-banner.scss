@@ -1,0 +1,50 @@
+
+.index-banner-form{
+    box-shadow: 0 40px 70px 0px #f5b5b0
+}
+
+.index-banner{
+    padding-top: 130px;
+    &::after,
+    &::before{
+        content: "";
+        position: absolute;
+        background: url(../images/svg/dots-pattern-pink.svg) no-repeat;
+        height: 250px;
+        width: 110px;
+    }
+    
+    &::after{
+        bottom: 0;
+        left: 0;
+    }
+    &::before{
+        top: 25%;
+        right: 0;
+
+    }
+}
+
+.index-banner-img{
+    position: relative;
+    border-radius: 5%;
+    margin-bottom: 50px;
+    img{
+        position: relative;
+        z-index: 2;
+        border-radius: 5%;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50px;
+        z-index: 1;
+        border: 3px solid #F68C20;
+        border-radius: inherit;
+        height: 100%;
+        width: 80%;
+    }
+}
+
+

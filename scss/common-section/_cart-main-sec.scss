@@ -1,0 +1,71 @@
+.readcrumb-sec{
+    padding-bottom: 160px;
+}
+
+.cart-main-content{
+    margin-top: -80px;
+}
+
+.cart-course-item{
+    margin-top: 25px;
+}
+.cart-course-item:first-child{
+    margin-top: 0;
+}
+.cart-course-img{
+    min-width: 120px;
+    width: 120px;
+    height: 120px;
+    picture,img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.cart-course-profile img{
+    border-radius: 8px;
+}
+.remove-cart-course img{
+    max-width: fit-content;
+}
+.cart-course-price,
+.check-out-crd{
+    del.card-subtitle,
+    span.card-subtitle{
+        opacity: 0.5;
+    }
+}
+
+.payment-crd-wrap .form-control:focus{
+    border: 1px solid #ced4da;
+}
+
+.check-out-crd,
+.payment-crd-wrap{
+    height: max-content;
+    min-width: 320px;
+}
+.payment-crd-wrap .form-control {
+    height: 40px;
+}
+.cart-coupen-code input{
+    border: 1px solid #F56962;
+    border-right: none;
+}
+
+.payment-crd-list .form-check-input + .form-check-label{
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.payment-crd-list .form-check-input:checked + .form-check-label{
+    border: 2px solid #F56962;
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .check-out-crd, 
+    .payment-crd-wrap,
+    .cart-course-list{
+      width: 100%;
+    }
+  }

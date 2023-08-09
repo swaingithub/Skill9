@@ -1,0 +1,69 @@
+/*
+    Template Name    : skilify
+	Description		 : HTML5 Template
+    Version          : 1.0
+/*
+================================================
+/* Table of Content
+==================================================
+
+
+1. Common CSS
+2. Header CSS
+3. Course Detail V1 CSS
+4. Card slider Sec CSS
+5. Discount Card Sec CSS
+6. Footer CSS
+7. Responsive CSS
+*/
+
+
+
+/*
+================================================
+1. Common CSS
+================================================
+*/
+@import "common";
+
+/*
+================================================
+2. Header CSS
+================================================
+*/
+@import "header-footer/header" ;
+
+/*
+================================================
+3. Course Detail V1 CSS
+================================================
+*/
+@import "common-section/course-detail-main-sec" ;
+
+/*
+================================================
+4. Card slider Sec CSS
+================================================
+*/
+@import "common-section/crd-slider-sec" ;
+
+/*
+================================================
+5. Discount Card Sec CSS
+================================================
+*/
+@import "common-section/discount-crd-sec" ;
+
+/*
+================================================
+6. Footer CSS
+================================================
+*/
+@import "header-footer/footer" ;
+
+/*
+================================================
+7. Responsive CSS
+================================================
+*/
+@import "responsive" ;

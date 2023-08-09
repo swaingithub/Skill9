@@ -1,0 +1,102 @@
+.blog-detail-banner{
+    padding-bottom: 160px;
+}
+
+.blog-detail-main{
+    margin-top: -80px;
+}
+
+.blog-detail-img img{
+    height: 484px;
+    width: 100%;
+    object-fit: cover;
+}
+.social-btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 150px;
+    text-align: left;
+}
+.social-btn img{
+    height: 18px;
+    width: 18px;
+}
+
+.facebook-btn{
+    background-color: #4761A6;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus{
+        background-color: #4761A6;
+        box-shadow: 0 7px 15px -2px #4761A6;
+    }
+}
+.twitter-btn{
+    background-color: #56B4F5;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus{
+        background-color: #56B4F5;
+        box-shadow: 0 7px 15px -2px #56B4F5;
+    }
+}
+.linkedin-btn{
+    background-color: #3C82C0;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus{
+        background-color: #3C82C0;
+        box-shadow: 0 7px 15px -2px #3C82C0;
+    }
+}
+.redit-btn{
+    background-color: #F54504;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus{
+        background-color: #F54504;
+        box-shadow: 0 7px 15px -2px #F54504;
+    }
+}
+.whatsapp-btn{
+    background-color: #54CC61;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus{
+        background-color: #54CC61;
+        box-shadow: 0 7px 15px -2px #54CC61;
+    }
+}
+.youtube-btn{
+    background-color: #D51000;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus{
+        background-color: #D51000;
+        box-shadow: 0 7px 15px -2px #D51000;
+    }
+}
+
+.blog-author-detail{
+    border-top: 1px solid #ddd;
+}
+.clap-response-wrap{
+    max-width: 400px;
+}
+.clap-text,
+.respose-text{
+    font-size: 16px;
+}
+.author-writen-by {
+    font-size: 14px;
+}
+.author-name{
+    font-size: 20px;
+    font-weight: 500;
+}

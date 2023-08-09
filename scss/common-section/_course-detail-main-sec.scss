@@ -1,0 +1,133 @@
+.course-detail-v2-main-sec{
+    .course-detail-banner{
+        padding-bottom: 240px;
+    }
+    .course-detail-grid{
+        margin-top: -160px;
+        z-index: 4;
+    }
+}
+.course-detail-grid{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    grid-gap: 0 50px;
+    grid-template-rows: max-content;
+}
+
+.corse-info-txt{
+    font-size: 14px;
+    color: #5F5982;
+}
+#course-detail-banner-bg{
+    top: 0;
+    left: 0;
+    z-index: -1;
+ }
+
+.course-price{
+    del,span{
+        font-size: 24px;
+        color: #CAC6D4; 
+    }
+    
+}
+.course-detail-crd-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.course-detail-crd{
+    background-color: #fff;
+    grid-row: span 3;
+    border-radius: 5px;
+    box-shadow: 0 0  25px -5px #c5c5c5;
+    height: max-content;
+}
+
+.social-icon-item path{ 
+    fill: #cac6d4;
+    transition: 0.5s;
+}
+.insta-icon:hover path{
+    fill: url(#myGradient);
+}
+
+.fb-icon:hover path{
+    fill: #4267b2 ;
+}
+.whatsapp:hover path{
+    fill: #1bd741 ;
+}
+.twitter:hover path{
+    fill: #03a9f4;
+}
+.indeed:hover path{
+    fill: #0084b1; 
+}
+.youtube:hover path{
+    fill: #fc0a00;
+}
+.reddit:hover path{
+    fill: #ff5722; 
+}
+
+.course-detail-accodians .btn-secondary.active{
+    background-color: $focus-color;
+    border: 0;
+    box-shadow: 0 0 10px #c5c5c5;
+    color: #fff;
+    &:focus{
+        box-shadow: 0 0 10px #c5c5c5;
+    }
+}
+
+.instructor-image picture{
+    height: 100%;
+    width: 137px;
+}
+.course-progress-bar{
+    display: grid;
+    grid-template-columns: 1fr 180px;
+    align-items: center;
+    gap: 15px;
+}
+.course-rating-crd .card-title{
+    font-size: 60px;
+}
+
+.course-rating-crd {
+    max-width: 170px;       
+    width: 100%;
+    border-radius: 5px;
+}
+.course-detail-crd-btn{
+    width: 100%;
+}
+.profile-img img{
+    width: 60px;
+    border-radius: 8px;
+}
+.progress{
+    height: 10px;
+    background-color: #fff ;
+    width: 100%;
+}
+.progress-bar{
+    background-color: $focus-color;
+}
+
+.accordion-button::after{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1.25rem;
+}
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(180deg) translateY(50%);
+}
+.course-detail-accordion{
+    .accordion-button{
+        padding: 1rem calc(3rem )  1rem 1.25rem;
+    }
+}
+

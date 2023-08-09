@@ -1,0 +1,32 @@
+.learn-steps-images {
+    &::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        // background-color: #F56962;
+        background-color: $bg-primary-dark;
+        opacity: 0.4;
+        border-radius: 50%;
+        height: 350px;
+        width: 350px;
+    }   
+}
+
+.learn-step-img-wrap{
+    padding: 12px;
+    z-index: 2;
+    box-shadow: 0 0 30px -10px rgba(0,0,0,0.5);
+    img{
+        object-fit: cover;
+        height: 170px;
+        width: 200px;
+    }
+    span{
+        height: 6px;
+        width: 100%;
+        display: block;
+    }    
+}
+

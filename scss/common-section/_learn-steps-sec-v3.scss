@@ -1,0 +1,12 @@
+
+
+.learn-steps-v3-content::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 65%;
+    background-color: #fef0ef;
+    z-index: -1;
+}

@@ -1,0 +1,113 @@
+/*
+    Template Name    : skilify
+	Description		 : HTML5 Template
+    Version          : 1.0
+/*
+================================================
+/* Table of Content
+==================================================
+
+
+1. Common CSS
+2. Header CSS
+3. Hero Banner version2 CSS
+4. Categories Cards Sec CSS
+5. Learn Steps Sec Css
+6. Card slider Sec CSS
+7. Two side curve Sec css
+8. Testimonial version 2 Sec CSS
+9. Partner Slider Sec CSS
+10. Footer CSS
+11. Responsive CSS
+*/
+
+
+
+/*
+================================================
+1. Common CSS
+================================================
+*/
+@import "common";
+
+
+/*
+================================================
+2. Header CSS
+================================================
+*/
+@import "header-footer/header";
+
+
+/*
+================================================
+3. Hero Banner version2 CSS
+================================================
+*/
+
+@import "banners/hero-banner-v2";
+
+
+
+
+/*
+================================================
+4. Categories Cards Sec CSS
+================================================
+*/
+@import "common-section/categories-cards-sec";
+
+
+/*
+================================================
+5. Learn Steps Sec Css
+================================================
+*/
+@import "common-section/learn-steps";
+
+/*
+================================================
+6. Card slider Sec CSS
+================================================
+*/
+@import "common-section/crd-slider-sec";
+
+/*
+================================================
+7. Two side curve Sec css
+================================================
+*/
+
+@import "common-section/two-side-curve-sec";
+
+/*
+================================================
+8. Testimonial version 2 Sec CSS
+================================================
+*/
+@import "testimonial/testimonial-version-2";
+
+
+/*
+================================================
+9. Partner Slider Sec CSS
+================================================
+*/
+@import "common-section/partner-slider-sec";
+
+
+
+/*
+================================================
+10. Footer CSS
+================================================
+*/
+@import "header-footer/footer";
+
+
+/*
+================================================
+11. Responsive CSS
+================================================
+*/
+@import "responsive";

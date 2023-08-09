@@ -1,0 +1,29 @@
+.contactus-banner{
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        height: 50px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 2;
+    }
+    .banner-content{
+        padding-bottom: 60px;
+    }
+    .sub-banner-heading{
+        font-size: 18px;
+    }
+    .banner-heading{
+        font-size: 40px;
+    }
+    .banner-brief{
+        font-size: 20px;
+    }
+    
+}
+.contactus-banner-row{
+    z-index: 3;
+}

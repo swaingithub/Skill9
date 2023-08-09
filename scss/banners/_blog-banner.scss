@@ -1,0 +1,20 @@
+.blog-banner{
+    overflow: hidden;
+}
+.blog-banner .banner-content{
+    max-width: 578px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 0 0 auto;
+}
+.blog-banner .banner-heading{
+    font-size: 40px;
+    font-weight: 500;
+}
+.blog-banner .banner-brief{
+    font-size: 20px;
+}
+.blog-banner .banner-img img{
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,77 @@
+
+
+.remote-learning-sec{
+ 
+    &::before,
+    &::after{
+        content: "";
+        position: absolute;
+        width: 110px;
+        height: 250px;
+    }
+    &::before{
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background: url(../images/svg/dots-pattern-gray-vertical.svg) no-repeat;
+    }
+    &::after{
+        bottom: 0;
+        left: 0;
+        background: url(../images/svg/dots-pattern-pink.svg) no-repeat;
+    }
+}
+
+.remote-learning-content{
+    z-index: 5;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.patterns-wrap{
+    img{
+        position: absolute;
+        z-index: 1;
+    }
+}
+.remote-circle1{
+    top: 0;
+    left: 0;
+    
+}
+.remote-circle2{
+    top: 50%;
+    left: 5%;
+}
+
+.remote-circle3{
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.remote-circle4{
+    bottom: 0px;
+    left: 15px;
+}
+.remote-circle5{
+    top: 0px;
+    right: 5%;
+}
+.remote-circle6{
+    top: 0;
+    right: -5%;
+}
+.remote-circle7{
+    top: 40%;
+    right : 0;
+}
+.remote-circle8{
+    bottom: 0px;
+    right: 10%;
+}
+
+
+@keyframes swinging{
+    0%{transform: rotate(-10deg) translate3d(-15px, 0, 0) }
+    100%{transform: rotate(10deg) translate3d(15px, 0, 0) }
+}
+

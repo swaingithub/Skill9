@@ -1,0 +1,19 @@
+.hero-banner-v2{
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: $bg-dark;
+        height: 100%;
+        margin: 0 auto;
+        max-width: 1700px;
+        width: calc(100% - 10px);
+        border-radius: 50px;
+        z-index: -1;
+    }
+    .banner-img{
+        margin-bottom: -15px;
+    }
+}

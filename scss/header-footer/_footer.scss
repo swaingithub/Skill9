@@ -1,0 +1,27 @@
+.footer-link{
+    color: $third-color;
+    font-size: 18px;
+    &:hover{
+        color: #fff;
+    }
+}
+
+.copy-right{
+    border-top: 1px solid $third-color;
+    .footer-socila-link svg{
+        path,circle,rect{
+            fill: #777;
+        }
+        
+    }
+    .footer-socila-link a:hover svg{
+        path,circle,rect{
+            fill: #fff;
+        }
+    }
+    
+}
+.copy-right-txt{
+    color: $third-color;
+    font-size: 16px;
+}

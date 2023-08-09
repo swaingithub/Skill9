@@ -1,0 +1,27 @@
+.learn-step:last-child{
+    .learn-step-line {
+        display: none!important;   
+    }    
+}
+
+.learn-step-line {
+    height: 100%;
+    width: 1px;
+    margin: 0 auto;
+    background-color: $third-color;
+    opacity: 0.5;
+}
+.learn-step-img-wrap img{
+    border-radius: 20px;
+    object-fit: cover;
+}
+.learn-step-img1,
+.learn-step-img3{
+    height: 220px;
+    width: 175px;
+    margin: 0 auto;
+}
+.learn-step-img2{
+    height: 300px;
+    width: 245px;
+}

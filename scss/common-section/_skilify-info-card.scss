@@ -1,0 +1,29 @@
+.skilify-info-sec{
+    padding-top: 40px;
+}
+
+
+.skilify-info-points{
+
+    top: -80px;
+    box-shadow:  0 0 30px -15px rgba(0, 0, 0,0.4);
+}
+.skilify-info-point-img {
+    border: 2px solid $bg-dark ;
+    border-radius: 50%;
+    img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        padding: 8px;
+        margin: 8px;
+        background-color: $bg-dark;
+    }
+}
+
+.info-point-primary .skilify-info-point-img {
+    border: 2px solid $bg-primary-dark ;
+    img{
+        background-color: $bg-primary-dark;
+    }
+}

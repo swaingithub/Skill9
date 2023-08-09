@@ -1,0 +1,14 @@
+
+
+.courses-search .sec-header  .btn-secondary{
+        &.active{
+            box-shadow: 0 7px 15px -2px #ccc;
+        }
+        &:focus,
+        &:hover{
+            color: #fff;
+            box-shadow: 0 7px 15px -2px #ccc;
+            background-color: #565e64;
+        }
+}
+

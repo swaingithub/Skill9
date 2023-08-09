@@ -1,0 +1,75 @@
+.categories-crd-list{
+    @extend %row-y-saping;
+}
+.categories-crd{
+    padding: 25px;
+    height: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+    display: block;
+    &:hover{
+        box-shadow: 0  0 30px -15px rgba(0, 0, 0, 0.4);
+        .card-title,.card-text{
+            color: #fff;
+        }
+        .categories-crd-img-wrap{
+            background-color: #fff;
+    
+        }
+    } 
+}
+.categories-crd-list-v3 .categories-crd{
+    padding: 15px;
+    border-radius: 10px;    
+    
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+.categories-crd-img-wrap {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.categories-crd-gray{
+    background-color: #EFEFF6;
+    .categories-crd-img-wrap{
+        background-color: rgba(226, 221, 255, 1);
+    }
+    &:hover{
+        background-color: #5444a5;
+    }
+}
+.categories-crd-orange{
+    background-color: #F68C201A;
+    .categories-crd-img-wrap{
+        background-color: rgba(250, 224, 208, 1);
+    }
+    &:hover{
+        background-color: #F68C20;
+    }
+}
+.categories-crd-blue{
+    background-color: #BBF0FF80;
+    .categories-crd-img-wrap{
+        background-color: rgba(187, 240, 255, 1);
+    }
+    &:hover{
+        background-color: #36bbf0;
+    }
+}
+.categories-crd-green{
+    background-color: #CEF6D680;
+    .categories-crd-img-wrap{
+        background-color: rgba(206, 246, 214, 1);
+    }
+    &:hover{
+        background-color: #5fd46d;
+    }
+}

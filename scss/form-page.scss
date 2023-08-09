@@ -1,0 +1,166 @@
+/*
+    Template Name    : skilify
+	Description		 : HTML5 Template
+    Version          : 1.0
+/*
+================================================
+/* Table of Content
+==================================================
+
+1. Common CSS
+2. Form main CSS
+3. Responsive CSS
+
+*/
+
+
+/*
+================================================
+1. Common CSS
+================================================
+*/
+@import "common";
+
+/*
+================================================
+2. Form main CSS
+================================================
+*/
+
+.container{
+    max-width: 1440px;
+}
+.form-page-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link{
+    font-size: 16px;
+    color: #5F5982;
+}
+.form-page-half{
+    padding: 145px 25px 100px;
+}
+.form-page-left{
+    min-height: 100vh;
+    width: 40%;
+    background-color: #FD9697;
+}
+.form-page-right{
+    width: 60%;
+}
+.form-page-right-content {
+    max-width: 525px;
+    margin: 0 auto;
+}
+.form-page{
+    .form-label{
+        font-size: 18px;
+    }   
+    .form-control{
+        height: 54px;
+    }
+    .form-control::placeholder{
+        opacity: 0.5;
+    }
+    .form-control:focus{
+        border: 1px solid #888;
+    }
+    .forgot-password{
+        font-size: 18px;
+        color: #6C63FF;
+    }
+    .submit-btn{
+        height: 56px;
+    }   
+
+}
+#showPassword{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    height: 24px;
+    width: 24px;
+    transform: translateY(-50%);
+    background: url(../images/svg/show-password.svg) no-repeat;
+    background-position: left;
+}
+#showPassword.active{
+    background: url(../images/svg/hide-password.svg) no-repeat;
+}
+
+.divider-line{
+    height: 1px;
+    width: 100%;
+    opacity: 0.5;
+}
+.span-or{
+    font-size: 24px;
+}
+
+.goolge-signin:hover{
+    box-shadow: 0 3px 6px rgba(32 ,33 ,36 , 0.2);
+    background-color: inherit!important;
+    color: inherit!important;
+}
+
+
+/*
+================================================
+3. Responsive  CSS
+================================================
+*/
+
+@media only screen and (max-width: 1200px) {
+    .banner-heading{
+        font-size: 36px;
+    }
+    .banner-brief{
+        font-size: 18px;
+    }
+    .sec-heading{
+        font-size: 34px;
+    }
+    .sec-brief,
+    .form-page .form-label,
+    .form-page .forgot-password,
+    .card-text{
+        font-size: 16px;
+    }
+    .form-page-half {
+        padding: 120px 25px 40px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    html {
+        font-size: 70%; 
+    }
+    .banner-heading {
+        font-size: 32px;
+    }
+    .banner-brief {
+        font-size: 16px;
+    }
+    .sec-heading {
+        font-size: 30px;
+    }
+    .sec-brief ,
+    .form-page .form-label,
+    .form-page .forgot-password,
+    .card-text{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .form-page-left{
+        display: none;
+    }
+    .form-page-right{
+        width: 100%;
+    }
+}

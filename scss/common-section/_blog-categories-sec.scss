@@ -1,0 +1,22 @@
+
+.blog-categories-card picture{
+    height: 313px;
+    width: 100%;
+}
+.blog-categories-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0  0 15px -2px #ddd;
+}
+.blog-categories-card .card-body{
+    min-width: 170px;
+    border-radius: 5px;
+    bottom: 0;
+    right: 0.75rem;
+    box-shadow: 0 7px 20px -3px #ddd;
+}
+.blog-categories-card .card-title{
+    margin: 0;
+}
